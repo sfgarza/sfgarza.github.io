@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var imagemin = require('gulp-imagemin');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -89,4 +90,10 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
     // Reloads the browser whenever HTML or JS files change
     gulp.watch('*.html', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
+});
+
+gulp.task('build-img', function(){
+	gulp.src('img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('img'));
 });
