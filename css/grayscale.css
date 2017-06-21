@@ -55,6 +55,12 @@ a:focus {
 .light {
   font-weight: 400;
 }
+.logo {
+  font-size: 1.2em;
+  border: 5px solid white;
+  margin-top: -12px;
+  padding: 6px 3px 6px 4px;
+}
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
