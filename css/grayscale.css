@@ -126,7 +126,8 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-.intro {
+.intro,
+.intro-photos {
   display: table;
   width: 100%;
   height: auto;
@@ -140,27 +141,36 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .intro-body {
+.intro .intro-body,
+.intro-photos .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
-.intro .intro-body .brand-heading {
+.intro .intro-body .brand-heading,
+.intro-photos .intro-body .brand-heading {
   font-size: 40px;
 }
-.intro .intro-body .intro-text {
+.intro .intro-body .intro-text,
+.intro-photos .intro-body .intro-text {
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  .intro {
+  .intro,
+  .intro-photos {
     height: 100%;
     padding: 0;
   }
-  .intro .intro-body .brand-heading {
+  .intro .intro-body .brand-heading,
+  .intro-photos .intro-body .brand-heading {
     font-size: 100px;
   }
-  .intro .intro-body .intro-text {
+  .intro .intro-body .intro-text,
+  .intro-photos .intro-body .intro-text {
     font-size: 26px;
   }
+}
+.intro-photos {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/leaves.jpg) no-repeat bottom center scroll;
 }
 .btn-circle {
   width: 70px;
