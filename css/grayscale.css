@@ -250,9 +250,14 @@ img.masonry-img {
   height: auto;
   display: block;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   img.masonry-img {
-    margin-left: 13%;
+    margin-left: 15em;
+  }
+}
+@media (max-width: 510px) {
+  img.masonry-img {
+    margin-left: 3em;
   }
 }
 @media (min-width: 767px) {
