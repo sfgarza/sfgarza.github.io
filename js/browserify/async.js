@@ -1,1 +1,0 @@
-global.asynclib = require('async');
