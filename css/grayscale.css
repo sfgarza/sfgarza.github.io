@@ -257,7 +257,7 @@ img.masonry-img {
 }
 @media (max-width: 510px) {
   img.masonry-img {
-    margin-left: 3em;
+    margin-left: 13%;
   }
 }
 @media (min-width: 767px) {
