@@ -31,7 +31,7 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $(".navbar-collapse").collapse('hide');
 });
-
+/*
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
@@ -183,3 +183,20 @@ function init() {
         icon: image
     });
 }
+*/
+
+/*
+$(function(){ 
+  $('.photo-gallery').masonry({
+    // options
+    itemSelector: '.masonryImage',
+    columnWidth: 200
+  });
+});*/
+
+var container = document.querySelector('#photo-gallery');
+var msnry = new Masonry( container, {
+  columnWidth: 100,
+  gutter: 60,
+  itemSelector: '.masonry-img'
+});
