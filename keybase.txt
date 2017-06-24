@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/sfgarza
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://santiagogarza.co
+  * I am sfgarza (https://keybase.io/sfgarza) on keybase.
+  * I have a public key with fingerprint 97FF A8FA 6B1F 866C C3C9  9ACA 455D 225D 2CF8 5BD2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018a39f902d4f84ad255cd68894fc3d08c086d414600d01722f30e1ec9fe2169c60a",
+            "fingerprint": "97ffa8fa6b1f866cc3c99aca455d225d2cf85bd2",
+            "host": "keybase.io",
+            "key_id": "455d225d2cf85bd2",
+            "kid": "01018a39f902d4f84ad255cd68894fc3d08c086d414600d01722f30e1ec9fe2169c60a",
+            "uid": "5d61cd5dfe661e25d06a0ae596921e19",
+            "username": "sfgarza"
+        },
+        "service": {
+            "hostname": "santiagogarza.co",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1498295504,
+    "expire_in": 157680000,
+    "prev": "7ebe7b9b2788a4eec1c9fea830115407a4dbc796714f7d3576281fed6bc23d2c",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSFRBGF67mUr3C0RFdR6KaNGZs+fMmbMhdKGokC6ilBGtc2bmrAft
+nG33uFYqRNTLQpJFFEh0oxJTw4yCEtFFC1okHwpCK43MFyn0IbFCaM6Sbz02MAzz
+z/d9//f9TM+C2b7sjJGHRc6941pBRqq7odJXst/fXy0ZDjstBaulcp4+eAXjMTdU
+bjEpKAEIICYB3dSBzBQTK4TJqkoZwlhXTBpgAFOAEVOgggBgAGqybAYAh5zqJpch
+0ikCRPJLpmWHeTQStWxXyOqaaRJsEmRAEyNEaYDqOqFEUVUmy2JTE6sGkwWxzIl5
+DGHOIDGeazmiJi6htL1/4P+z78q0nMoQpExlJkcIctEQIAIIV3Wky5BD3QPGeNQm
+J7hAx8wwiZ4hUq1fEsW4Rbk3Vy/IDIDYrkXCThqWS71IkajjOtSpEK9lrhuJBT22
+ezriwau4EforFDIsm4lRCkacR2OWY0tBKJDUtTxlqOhY1lUVKH6Jn4pYUR6yPISq
+IQzE8vrwuJDUuME1QzdkDWOicE6hl5vgAIBQVYBGFGZQTUcaVEyNBQRfxtDkDBlU
+DohxS160k7YjtDXhk4S9VFbYJm5llEu1ya5jc3wZ2b55c2d5f8yXnbV45ud1tM73
+XX4sX00k9kzfnDyyauPA0JvC1R/az9WU1Y0tGkN5431LRlLPkj3NWXL804YzZeuv
+TNU1aMuT/sbiwef9l8/vWp3qfR4sBM2ZjTmdrW1b6/MnprP68mvabp06vOyt/ePr
++ZWlF42jkU78uUQ5cSkxsAD7Wl73bjM6ElMV1/ZlHhxq2QRvP9rxwM54UbUlFVKb
+c56V+DI3rP19P/Hy6YiZGtbu1L3a293FLo4e+NadvLaupYXfZz0Xcn4uLKgbLZrX
+VN4wuH18jfF9TenSQ7u1j7W9w8rEValgarL/SfLsl+IbO9/8UsdW7BwovTtZf25H
+e9Ovt/Wbp99HrtvS2h/h7Lx3iT+1n0hC
+=fYcz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sfgarza
+
+==================================================================
