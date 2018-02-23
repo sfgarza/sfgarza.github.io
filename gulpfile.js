@@ -71,14 +71,14 @@ gulp.task('copy', function() {
 })
 
 // Run everything
-gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['build-img', 'less', 'minify-css', 'minify-js', 'copy']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: ''
-        },
+            baseDir: '.'
+        }
     })
 })
 
@@ -93,7 +93,7 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
 });
 
 gulp.task('build-img', function(){
-	gulp.src('img/*')
+	return gulp.src('img/*')
     .pipe(imagemin())
     .pipe(gulp.dest('img'));
 });
