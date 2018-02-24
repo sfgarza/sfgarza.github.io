@@ -41,9 +41,12 @@ gulp.task('minify-css', ['less'], function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src('js/grayscale.js')
-        .pipe(uglify())
-        .pipe(header(banner, { pkg: pkg }))
+    return gulp.src(['js/*.js', '!js/*.min.js'])
+        .pipe(uglify({
+       		output:{
+						comments: '/^!/'
+					}
+     		}))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('js'))
         .pipe(browserSync.reload({

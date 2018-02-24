@@ -1,4 +1,4 @@
-/*
+/*!
 zoomwall.js
 
 The MIT License (MIT)
@@ -47,7 +47,7 @@ var zoomwall = {
       zoomwall.keys(blocks);
     }
   },
-  
+
   keys: function(blocks) {
     var keyPager = function(e) {
       if (e.defaultPrevented) {
@@ -83,7 +83,7 @@ var zoomwall = {
     };
 
     document.addEventListener('keydown', keyPager);
-    
+
     return keyPager;
   },
 
@@ -116,7 +116,7 @@ var zoomwall = {
       if (block) {
         if (top == -1) {
           top = block.offsetTop;
-          
+
         } else if (block.offsetTop != top) {
           zoomwall.resizeRow(row, zoomwall.calcRowWidth(row));
 
@@ -196,7 +196,7 @@ var zoomwall = {
       }
       block.src = block.dataset.highres;
     }
-    
+
     // determine what blocks are on this row
     var row = [];
     row.push(block);
@@ -238,7 +238,7 @@ var zoomwall = {
     }
 
     var leftOffsetX = 0;  // shift in current row
-    
+
     for (var i = 0; i < row.length && row[i] != block; i++) {
       leftOffsetX += parseInt(window.getComputedStyle(row[i]).width, 10) * scale;
     }
@@ -259,7 +259,7 @@ var zoomwall = {
     // transform current row
     var itemOffset = 0; // offset due to scaling of previous items
     var prevWidth = 0;
-    
+
     for (var k = 0; k < row.length; k++) {
       itemOffset += (prevWidth * scale - prevWidth);
       prevWidth = parseInt(window.getComputedStyle(row[k]).width, 10);
